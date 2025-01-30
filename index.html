@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Using HTML, CSS, JavaScript</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="frount.css" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "nLEoGx4NRdltsSjAU",
+      });
+   })();
+</script>
+
+</head>
+<body>
+    <header class="active">
+        <a href="#" class="logo">KAITHOJU.</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">RESUME</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+     <!-- bars background -->
+      <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+      </div>
+
+
+    <!-- Home Section -->
+    <section class="home active ">
+        <div class="home-detail">
+            <h1>KAITHOJU ESHWAR</h1>
+            <h2>I'm 
+                <span style="--i:3" data-text="Coder">Coder</span>
+                <span style="--i:2" data-text="Designer">Designer</span>
+                <span style="--i:1" data-text="Editor">Editor</span>
+            </h2>
+            <p>Bridging Technology and Innovation Through Code</p>
+            <div class="btn-sci">
+                <a href="https://drive.google.com/file/d/17aqiOQPsAjFFjF0LT7SCCeZRuUX3mHZo/view?usp=sharing" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/kaithoju4352/kaithoju4352.git"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/kaithoju-eshwar-8ab893291"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/kaithoju__?utm_source=qr&igsh=d2poejhpYzB0b3Rw"><i class='bx bxl-instagram'></i></a>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="new.png" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services ">
+        <h2 class="heading">MY <span>SERVICES</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="https://drive.google.com/drive/folders/1o3vKC4TsIiEW46isWUoahcXnonNDuSWk?usp=sharing"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>This is the main area of my expertise in coding and development.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-camera'></i>
+                    <a href="https://drive.google.com/drive/folders/1oZv_k2FhVsQiKrr_ADtOBQq_s3NjI6eK?usp=sharing"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>I offer photography services with a creative touch.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Professional video editing for your creative projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me...?</h2>
+                <p class="desc">Here is why you should choose me for your next project!</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">MY <span>Experience</span></h2>
+                    <p class="desc">I've been working on several interesting projects with a lot of learning opportunities.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>RICE QUALITY ANALYSIS USING IMAGE PROCESSING TECHNIQUES</h3>
+                            <p class="company">Mini Project</p>
+                            <p>Utilizing image processing, our system captures high-resolution images of rice grains, eliminates background interference, and extracts features like size, color, and defects. Employing machine learning, it grades rice based on established quality parameters.  </p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>IRIS DISEASES RECOGNITION USING SVM AND CNN</h3>
+                            <p class="company">Major Project</p>
+                            <p> Integrating Support Vector Machines (SVM) and Convolutional Neural Networks (CNN). SVM handles feature extraction, while CNN enhances classification accuracy. The fusion achieves robust identification of iris diseases, promising improved diagnosis and treatment strategies in healthcare applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-detail education">
+                    <h2 class="heading">MY <span>Education</span></h2>
+                    <p class="desc">From classrooms to code, I’ve built my path with curiosity, determination, and a passion for tech</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2020 - 2024</p>
+                            <h3>B.TECH</h3>
+                            <p class="company">MALLA REDDY INSTITUTE OF TECHNOLOGY AND SCIENCE </p>
+                            <p>ELECTRONICS AND COMMUNICATION ENGINEERING </p>
+                            <p>PERCENTAGE: 6.69 %</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2018 - 2020</p>
+                            <h3>INTERMEDIATE</h3>
+                            <p class="company">SRI CHAITANYA JUNIOUR COLLEGE</p>
+                            <p>MPC</p>
+                            <p>PERCENTAGE: 79%</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2018</p>
+                            <h3>Schooling</h3>
+                            <p class="company">FATHER'S MODEL HIGH SCHOOL</p>
+                            <p>GENERAL STUDIES</p>
+                            <p>PERCENTAGE: 79%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-detail skills">
+                    <h2 class="heading">MY <span>Skills</span></h2>
+                    <p class="desc">Crafting my journey one lesson at a time, blending education with innovation, and coding the future with every step
+                        this are my skills 
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-python'></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3'></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript'></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bx-data'></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-django'></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react'></i>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">"I’m a tech enthusiast with a creative spark, constantly exploring the intersection of innovation and design."</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name<span>KAITHOJU ESHWAR</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender<span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age<span>23 Years Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status<span>Single</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City<span>Hyderabad</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality<span>Indian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone<span>91+ 9701544136</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email<span>eshwarkaithoju4352@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages<span>English, Hindi, Telugu</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+     <section class="portfolio ">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>FRONTEND DEVELOPER</h3>
+                    <P>For my Amazon Clone project, I focused on crafting a visually appealing and responsive e-commerce interface using just HTML and CSS. I replicated the core layout and design elements of Amazon’s homepage, such as the product categories, search bar, and product display sections, while ensuring a clean, user-friendly experience. This project allowed me to hone my skills in HTML structure and CSS styling, with a focus on creating a responsive design that adapts seamlessly across devices. Though simple, it’s a perfect showcase of my attention to detail and ability to bring complex layouts to life using front-end technologies.</P>
+                    <div class="tech">
+                        <p>HTML & CSS3</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://drive.google.com/drive/folders/1o3vKC4TsIiEW46isWUoahcXnonNDuSWk?usp=sharing"><i class='bx bx-arrow-back'></i><span>AMOZAN CLONE PROJECT </span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>GITHUB REPOSITORY</span></a>
+                    </div>
+                </div>
+                
+                <!-- <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>front end developer </h3>
+                    <P>the main from the given to intho yhe main from the given prodet</P>
+                    <div class="tech">
+                        <p>html, css ,bb</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>GITHUB REPOSITORY</span></a>
+                    </div>
+                </div> -->
+                <!-- <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>front end developer </h3>
+                    <P>the main from the given to intho yhe main from the given prodet</P>
+                    <div class="tech">
+                        <p>html, css ,bb</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>GITHUB REPOSITORY</span></a>
+                    </div>
+                </div> -->
+                <!-- <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>front end developer </h3>
+                    <P>the main from the given to intho yhe main from the given prodet</P>
+                    <div class="tech">
+                        <p>html, css ,bb</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'></i><span>GITHUB REPOSITORY</span></a>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="portfolio.png" alt="">
+                        </div>
+                        <!-- <div class="img-item">
+                            <img src="portfolio.png" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio.png" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio.png" alt="">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="arrow-left"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- contact-section -->
+      <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2> Let's Work Together</h2>
+                <p class="desc">"Let’s innovate and create, where technology meets design and passion drives progress." </p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>phone</p>
+                        <p>(+91) 9701544136</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>eshwarkaithoju4352@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <a href="https://maps.apple.com/?ll=17.513377,78.432114&q=My%20Location&t=m"><i class='bx bxs-map' ></i></a>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>5-25-61/1, sri ram nagar,Rodamestri nagar, gajularamaram nagar, hyderabad </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-box">
+                <form id="contactForm" method="post">
+                    <h2 class="heading">Contact <span>Me..!</span></h2>
+                    <div class="field-box">
+                        <input type="text" name="fullName" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                        <input type="text" name="subject" placeholder="Email Subject" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+   
+   (function(){
+      emailjs.init("nLEoGx4NRdltsSjAU");  
+   })();
+
+  
+   document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();  
+
+      
+      const formData = new FormData(this);
+      const data = {
+          fullName: formData.get('fullName'),
+          email: formData.get('email'),
+          phone: formData.get('phone'),
+          subject: formData.get('subject'),
+          message: formData.get('message')
+      };
+
+      
+      const fullMessage = `
+        New Message from Contact Form
+        Full Name: ${data.fullName}
+        Email Address: ${data.email}
+        Phone Number: ${data.phone}
+        Email Subject: ${data.subject}
+        Message:
+        ${data.message}
+      `;
+
+      
+      emailjs.send('service_sefrazn', 'template_bkst2zs', {
+          fullName: data.fullName,
+          email: data.email,
+          phone: data.phone,
+          subject: data.subject,
+          message: fullMessage
+      })  
+         .then(function(response) {
+            alert('Message sent successfully!');  
+         })
+         .catch(function(error) {
+            alert('Failed to send message. Please try again later.');  
+            console.log(error); 
+         });
+   });
+</script>
+        </div>
+      </section>
+
+    <!-- Custom JS -->
+    <script src="script1.js"></script>
+    
+</body>
+</html>
